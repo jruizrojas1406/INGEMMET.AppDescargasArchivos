@@ -49,17 +49,12 @@ namespace INGEMMET.AppDescargasArchivos
             //bundles.Add(new StyleBundle("~/Content/DataTables/base").Include(
             //    "~/Content/DataTables/base.css"));
 
-            //// Style Base para el Funcionamiento del Módulo
-            //bundles.Add(new StyleBundle("~/Content/css")
-            //    .Include("~/Content/bootstrap.min.css")
-            //    .Include("~/Content/bootstrap-theme.min.css")
-            //    .Include("~/Content/jquery-ui.min.css")
-            //    .Include("~/Content/jquery-ui-1.10.0.custom.css")
+            //// Styles Base
+            bundles.Add(new StyleBundle("~/Content/css")
+                .Include("~/Content/bootstrap.min.css")
+                .Include("~/Content/bootstrap-theme.min.css")
             //    .Include("~/Content/font-awesome.min.css")
-            //    .Include("~/Content/iCheck/all.css")
-            //    .Include("~/Content/select2.min.css")
-            //    .Include("~/Content/Site.css")
-            //    .Include("~/Content/StyleViews.css"));
+                .Include("~/Content/Site.css"));
         }
     }
 }
