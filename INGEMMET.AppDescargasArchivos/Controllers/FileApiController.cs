@@ -19,8 +19,7 @@ namespace INGEMMET.AppDescargasArchivos.Controllers
         public async Task<HttpResponseMessage> Get()
         {
             try
-            {
-                
+            {                
                 var stream = await Client.GetStreamAsync("http://geocatminapp.ingemmet.gob.pe/complementos/descargas/Mapas/Geologia50/28-s1.zip");
                 FileStream fileStream = stream as FileStream;               
 
